@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=JetBrains+Mono:wght@100&family=Noto+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right top, #0081cf, #009bdd, #00b4e2, #00cbdf, #00e0d7, #2fdfc9, #49deba, #5eddab, #4bc897, #38b383, #229e70, #008a5e);
+    background-size: 100% 100%;
+    display: flex;
+    menu{
+        width: 15vh;
+        height: 60vh;
+        margin: 10vh 0.5vw 0 5vw;
+        padding: 0;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        .menu-ul{
+            margin: 0;
+            padding: 0;
+            .menu-item{
+                width: 15vh;
+                height: 15vh;
+                display: flex;
+                align-items: center;
+                justify-content: center ;
+                p{
+                    margin: 0;
+                    font-size: large;
+                    font-family: 'Noto Sans', sans-serif;
+                }
+            }
+        }
+    }
+    .central-container{
+        width: 30vw;
+        height: 86vh;
+        margin: 7vh 1vw 7vh 0vw;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(10px);
+    }
+}
